@@ -1,0 +1,100 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background: #0b0b0f;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    text-align: center;
+    padding: 25px 15px;
+    border-bottom: 1px solid #292929;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 28px;
+}
+
+header p {
+    margin: 8px 0 0;
+    color: #999;
+}
+
+main {
+    width: 100%;
+    max-width: 700px;
+    margin: auto;
+    padding: 20px;
+}
+
+.upload {
+    margin-bottom: 20px;
+}
+
+.upload label {
+    display: block;
+    background: white;
+    color: black;
+    text-align: center;
+    padding: 16px;
+    border-radius: 12px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#videoInput {
+    display: none;
+}
+
+.preview {
+    width: 100%;
+    background: black;
+    border-radius: 15px;
+    overflow: hidden;
+    border: 1px solid #292929;
+}
+
+#video {
+    display: block;
+    width: 100%;
+    max-height: 500px;
+    background: black;
+}
+
+.tools {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.tools button {
+    border: 1px solid #333;
+    background: #18181d;
+    color: white;
+    padding: 16px 10px;
+    border-radius: 12px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.tools button:active {
+    transform: scale(0.97);
+}
+
+.export {
+    width: 100%;
+    margin-top: 20px;
+    padding: 17px;
+    border: none;
+    border-radius: 12px;
+    background: white;
+    color: black;
+    font-size: 17px;
+    font-weight: bold;
+}
