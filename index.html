@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Meu Editor de Vídeo</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>MEU EDITOR</h1>
+        <p>Editor de vídeo online</p>
+    </header>
+
+    <main>
+
+        <section class="upload">
+            <label for="videoInput">
+                Escolher vídeo
+            </label>
+
+            <input
+                type="file"
+                id="videoInput"
+                accept="video/*"
+            >
+        </section>
+
+        <section class="preview">
+            <video
+                id="video"
+                controls
+            ></video>
+        </section>
+
+        <section class="tools">
+
+            <button>Reverse</button>
+            <button>Zoom</button>
+            <button>Tracking</button>
+            <button>Slow Motion</button>
+            <button>Motion Blur</button>
+            <button>Gelatinado</button>
+            <button>4K</button>
+            <button>Cortar</button>
+
+        </section>
+
+        <button class="export">
+            EXPORTAR VÍDEO
+        </button>
+
+    </main>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
